@@ -1,0 +1,14 @@
+.loginButton {
+  color: rgb(243, 191, 19) !important;
+  background-color: black !important;
+  /* margin: 0.1rem; */
+}
+.button:hover {
+  color: black !important;
+  background-color: rgb(243, 191, 19) !important;
+}
+
+.text {
+  margin-top: 0.6rem !important;
+  margin-left: 0.3rem;
+}

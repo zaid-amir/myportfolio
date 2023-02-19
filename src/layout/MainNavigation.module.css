@@ -1,0 +1,60 @@
+.header {
+  width: auto;
+  padding-top: 0.5rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+.badge {
+  margin: 0rem 2rem;
+  padding: 0.5rem 0.7rem;
+  background-color: rgb(243, 191, 19);
+  border-radius: 0.5rem;
+  /* border: 5px solid black; */
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
+.list {
+  list-style: none;
+  display: flex;
+  margin-right: 2rem;
+}
+.list li {
+  margin: 0rem 1.5rem;
+}
+.list a {
+  text-decoration: none;
+  color: rgb(8, 7, 7);
+  font-weight: bold;
+  padding: 0.5rem 0.5rem;
+}
+.list a:hover {
+  background-color: rgb(243, 191, 19);
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+.css-10hburv-MuiTypography-root  {
+font-weight: 900 !important;
+}
+
+.loginButton{
+  color:rgb(243, 191, 19) !important;
+  background-color: black !important;
+  margin-left: 3px !important;
+}
+.badgename{
+  color: black !important;
+  background-color: rgb(243, 191, 19) !important;
+  font-weight: bold !important;
+  border: 1px solid black !important;
+  font-size: 1.2rem !important;
+  padding: 0.2rem 1rem !important;
+  border-radius: 0.5rem !important;
+  text-transform: capitalize !important;
+  margin-left: 0.3rem !important;
+
+}

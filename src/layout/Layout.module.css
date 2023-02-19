@@ -1,0 +1,8 @@
+.main{
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=740&t=st=1662625902~exp=1662626502~hmac=35edcdb42a1f66652d8776292f0e0d9862d366c95f76f84e371413719422612f');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    /* margin:0rem 0rem; */
+    /* padding: 0rem 0.5rem; */
+    min-height: 100vh;
+}
