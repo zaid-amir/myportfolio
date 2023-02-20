@@ -12,9 +12,9 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className="main">
-        <MainNavigation />
+    <div className="main">
+      <MainNavigation />
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -22,9 +22,9 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Footer />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>
+      <Footer />
+    </div>
   );
 }
 
